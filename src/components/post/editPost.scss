@@ -1,0 +1,14 @@
+.editPost {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &-title, &-body {
+    margin-bottom: var(--spacing);
+  }
+
+  &-body {
+    resize: none;
+    height: 200px;
+  }
+}

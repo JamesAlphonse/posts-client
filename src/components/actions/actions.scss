@@ -1,0 +1,11 @@
+.actions {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-top: var(--spacing);
+
+  & > * {
+    margin: 3px;
+  }
+}

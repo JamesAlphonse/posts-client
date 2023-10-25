@@ -1,0 +1,17 @@
+.post {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  max-width: var(--content-max-width);
+  background-color: var(--content-background);
+  padding: var(--spacing);
+  margin-top: var(--spacing);
+  border-radius: var(--border-radius);
+
+  &-title {
+    margin-bottom: var(--spacing);
+  }
+}
